@@ -2,9 +2,8 @@
 
 from selenium import webdriver
 import time
-# 后面是你的浏览器驱动位置，记得前面加r'','r'是防止字符转义的
+# 后面是浏览器驱动位置，前面加r'','r'是防止字符转义的
 driver = webdriver.Chrome(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
-# 用get打开百度页面
 driver.get("https://qzone.qq.com/")
 
 #将当前定位的主体切换了frame 里
