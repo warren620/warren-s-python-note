@@ -1,4 +1,4 @@
-#剩下要把url进行请求再封装进item
+#第一个基于scrapy框架开发的selenium模拟登录爬取图片的项目
 import scrapy
 from selenium import webdriver
 from lxml import etree
