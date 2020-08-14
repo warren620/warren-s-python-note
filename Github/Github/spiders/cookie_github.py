@@ -1,3 +1,5 @@
+#基于scrapy框架用selenium模块模拟登录获得cookie传递到其他函数中进行请求
+#在中间件研究了一下午怎么弄cookie才发现可以在spider中获得
 import scrapy
 from selenium import webdriver
 from time import sleep
