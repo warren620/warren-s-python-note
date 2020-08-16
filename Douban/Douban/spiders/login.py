@@ -1,3 +1,5 @@
+#模拟登录豆瓣.这个项目主要难点是iframe
+#吐槽：同样的办法Github和豆瓣都能成功携带cookie进行请求.淘宝就不行.这也是个练手项目，为了对比跟淘宝模拟登录的区别在哪
 import scrapy
 from selenium.webdriver import Chrome
 from selenium.webdriver import ChromeOptions
